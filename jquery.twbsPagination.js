@@ -62,7 +62,7 @@
             this.render(this.getPages(this.options.startPage));
             this.setupEvents();
 
-            this.$element.trigger('page', this.options.startPage);
+            //this.$element.trigger('page', this.options.startPage);
 
             return this;
         },
